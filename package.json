@@ -7,6 +7,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "docker build -f Dockerfile -m 4GB . -t mern_srv",
+    "start": "docker-compose up",
+    "stop": "docker-compose down"
   },
   "dependencies": {
     "@types/cors": "2.8.4",
