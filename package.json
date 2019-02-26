@@ -1,8 +1,10 @@
 {
   "name": "mern_srv",
   "version": "1.0.0",
-  "description": "",
+  "description": "mern test server",
   "main": "index.js",
+  "repository": "",
+  "license": "UNLICENSED",
   "scripts": {
     "mongo": "docker run -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password -e MONGO_INITDB_DATABASE=events -p 27017:27017 mongo"
   },
